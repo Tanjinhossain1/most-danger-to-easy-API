@@ -10,17 +10,26 @@
         #container{
             margin: 30px;
         }
+        #spinner{
+            display: none;
+        }
     </style>
 </head>
 <body>
     <h1 class="text-center mt-5">Search Your Cocktail </h1>
-
+<h2 class="text-center mt-5"><a class="text-danger" href="meal.html">YOU NEED FOOD THEN GO THEARE</a></h2>
 <div>
     <div class="input-group w-50 mx-auto mt-5 mb-3">
         <input id="input" type="text" class="form-control rounded-pill" placeholder="Search CockTail" aria-label="Recipient's username" aria-describedby="button-addon2">
         <button class="btn btn-outline-secondary rounded-pill" type="button" onclick="loadCocktail()" id="button-addon2">Button</button>
       </div>
 </div>
+    <div id="parent">
+
+    </div>
+    <div id="spinner" class="text-center mt-5">
+         <img  src="gif.jpg" alt="">
+    </div>
         <div id="container" class="row row-cols-1 row-cols-md-3 g-4">
          </div>
      <!-- javascript file add  -->
